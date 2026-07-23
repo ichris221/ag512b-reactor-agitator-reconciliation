@@ -1,0 +1,18 @@
+record_id,timestamp,location_tag,location_name,axis,metric,measured_value,units,operating_state,instrument_tag,local_limit,limit_units,operator,record_status,duplicate_of,accepted_for_evaluation,source_note
+VR-001,2026-06-23 10:00,MTR-DE-512B,Motor drive end,horizontal,velocity RMS,4.4,mm/s,STEADY_100_PERCENT,VIB-512-06,4.5,mm/s,<=,ACCEPTED,,YES,Maximum accepted motor-DE reading
+VR-002,2026-06-23 10:01,MTR-DE-512B,Motor drive end,vertical,velocity RMS,3.2,mm/s,STEADY_100_PERCENT,VIB-512-06,4.5,mm/s,<=,ACCEPTED,,YES,Stable
+VR-003,2026-06-23 10:02,MTR-DE-512B,Motor drive end,axial,velocity RMS,2.8,mm/s,STEADY_100_PERCENT,VIB-512-06,4.5,mm/s,<=,ACCEPTED,,YES,Stable
+VR-004,2026-06-23 10:05,MTR-NDE-512B,Motor non-drive end,horizontal,velocity RMS,4.6,mm/s,STEADY_100_PERCENT,VIB-512-06,4.5,mm/s,<=,ACCEPTED,,YES,Maximum accepted motor-NDE reading
+VR-005,2026-06-23 10:06,MTR-NDE-512B,Motor non-drive end,vertical,velocity RMS,3.4,mm/s,STEADY_100_PERCENT,VIB-512-06,4.5,mm/s,<=,ACCEPTED,,YES,Stable
+VR-006,2026-06-23 10:10,GBX-IN-512B,Gearbox input,horizontal,velocity RMS,5.5,mm/s,STEADY_100_PERCENT,VIB-512-06,5.6,mm/s,<=,ACCEPTED,,YES,Maximum accepted gearbox-input reading
+VR-007,2026-06-23 10:11,GBX-IN-512B,Gearbox input,vertical,velocity RMS,4.9,mm/s,STEADY_100_PERCENT,VIB-512-06,5.6,mm/s,<=,ACCEPTED,,YES,Stable
+VR-008,2026-06-23 10:15,GBX-OUT-512B,Gearbox output,horizontal,velocity RMS,5.9,mm/s,STEADY_100_PERCENT,VIB-512-06,5.6,mm/s,<=,ACCEPTED,,YES,Maximum accepted gearbox-output reading
+VR-009,2026-06-23 10:16,GBX-OUT-512B,Gearbox output,vertical,velocity RMS,5.3,mm/s,STEADY_100_PERCENT,VIB-512-06,5.6,mm/s,<=,ACCEPTED,,YES,Stable
+VR-010,2026-06-23 10:20,AGIT-UP-512B,Agitator upper bearing,horizontal,velocity RMS,4.5,mm/s,STEADY_100_PERCENT,VIB-512-06,4.5,mm/s,<=,ACCEPTED,,YES,Equality with inclusive maximum
+VR-011,2026-06-23 10:21,AGIT-UP-512B,Agitator upper bearing,vertical,velocity RMS,4.1,mm/s,STEADY_100_PERCENT,VIB-512-06,4.5,mm/s,<=,ACCEPTED,,YES,Stable
+VR-012,2026-06-23 10:25,AGIT-LOW-512B,Agitator lower bearing,horizontal,velocity RMS,0.205,in/s,STEADY_100_PERCENT,VIB-512-06,4.5,mm/s,<=,ACCEPTED,,YES,Requires 25.4 mm/in conversion
+VR-013,2026-06-23 10:26,AGIT-LOW-512B,Agitator lower bearing,vertical,velocity RMS,4.9,mm/s,STEADY_100_PERCENT,VIB-512-06,4.5,mm/s,<=,ACCEPTED,,YES,Stable
+VR-014,2026-06-23 10:15,GBX-OUT-512B,Gearbox output,horizontal,velocity RMS,10.4,mm/s,STEADY_100_PERCENT,VIB-512-06,5.6,mm/s,<=,VOID,,NO,Probe lost contact; analyst voided
+VR-015,2026-06-23 10:00,MTR-DE-512B,Motor drive end,horizontal,velocity RMS,4.4,mm/s,STEADY_100_PERCENT,VIB-512-06,4.5,mm/s,<=,DUPLICATE_COPY,VR-001,NO,Copied route row
+VR-016,2026-06-23 09:40,GBX-IN-512B,Gearbox input,horizontal,velocity RMS,6.1,mm/s,COASTDOWN,VIB-512-06,5.6,mm/s,<=,TRANSIENT,,NO,Not steady-state acceptance condition
+VR-017,2026-06-23 10:28,AGIT-LOW-512B,Agitator lower bearing,axial,velocity RMS,5.0,,STEADY_100_PERCENT,VIB-512-06,4.5,mm/s,<=,PRELIMINARY,,NO,Unit omitted; accepted horizontal and vertical readings resolve location severity

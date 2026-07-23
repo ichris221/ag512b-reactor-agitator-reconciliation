@@ -1,0 +1,8 @@
+record_id,inspection_date,component_tag,parameter,measurement_basis,measured_value,units,lower_limit,upper_limit,operator_basis,record_status,duplicate_of,accepted_for_evaluation,source_note
+SRE-001,2026-06-22,AG-SH-512B,radial_runout,TIR,0.046,mm,,0.05,maximum <= upper,FINAL,,YES,Final agitator-shaft radial runout
+SRE-002,2026-06-22,AG-SH-512B,axial_runout,TIR,0.041,mm,,0.04,maximum <= upper,FINAL,,YES,Final agitator-shaft axial runout
+SRE-003,2026-06-22,AG-SH-512B,endplay,axial displacement,0.18,mm,0.1,0.2,inclusive range,FINAL,,YES,Final endplay
+SRE-004,2026-06-22,AG-SH-512B,radial_runout,TIR,0.046,mm,,0.05,maximum <= upper,DUPLICATE_COPY,SRE-001,NO,Copied inspection row
+SRE-005,2026-06-21,AG-SH-512B,radial_runout,TIR,0.063,mm,,0.05,maximum <= upper,PRELIMINARY,,NO,Before shaft seating adjustment
+SRE-006,2026-06-21,AG-SH-512B,axial_runout,TIR,0.039,,,0.04,maximum <= upper,PRELIMINARY,,NO,Unit omitted on handwritten transfer; final SRE-002 controls
+SRE-007,2026-06-22,AG-SH-512B,endplay,panel summary,0.17,mm,0.1,0.2,inclusive range,PANEL_SUMMARY,,NO,Rounded summary; final SRE-003 controls

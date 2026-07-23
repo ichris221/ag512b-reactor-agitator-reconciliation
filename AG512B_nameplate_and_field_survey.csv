@@ -1,0 +1,29 @@
+record_id,survey_date,component_tag,parameter,observed_value,units,evidence_type,record_status,confidence,source_note
+NFS-001,2026-06-20,AG-512B,canonical_agitator_tag,AG-512B,,stamped asset plate,CURRENT,A,Current package tag
+NFS-002,2026-06-20,AG512B,agitator_tag_alias,AG-512B,,painted vessel stencil,ALIAS,A,Alias only
+NFS-003,2026-06-20,REACTOR-MIX-512B,agitator_tag_alias,AG-512B,,DCS equipment label,ALIAS,A,Alias only
+NFS-004,2026-06-20,MIX-B52,agitator_tag_alias,AG-512B,,operator rounds label,ALIAS,A,Alias only
+NFS-005,2026-06-20,VSL512-AG,agitator_tag_alias,AG-512B,,legacy maintenance shorthand,ALIAS,B,Alias only
+NFS-006,2026-06-20,MTR-512B,installed_motor_model,HelioTorque HTX-112M-4,,motor nameplate,CURRENT,A,Installed motor
+NFS-007,2026-06-20,MTR-512B,motor_rated_power,112.0,kW,motor nameplate,CURRENT,A,Rated power only; not measured input power
+NFS-008,2026-06-20,MTR-512B,motor_rated_speed,1482.0,rpm,motor nameplate,CURRENT,A,50 Hz rating
+NFS-009,2026-06-20,VFD-512B,installed_vfd_model,DriveSphere DSX-160-6P,,VFD label,CURRENT,A,Installed drive
+NFS-010,2026-06-20,GBX-512B,installed_gearbox_model,RexMec GXH-142-23.75,,gearbox nameplate,CURRENT,A,Installed gearbox
+NFS-011,2026-06-20,GBX-512B,gearbox_nameplate_ratio,23.75,:1,gearbox nameplate,CURRENT,A,No current acceptance tolerance stated
+NFS-012,2026-06-20,AG-SH-512B,agitator_shaft_diameter,120.0,mm,micrometer survey,CURRENT,A,Two-axis mean
+NFS-013,2026-06-20,CPG-512B,installed_coupling_model,TorsionFlex TF-290-D,,coupling hub marking,CURRENT,A,Current flexible-disc coupling
+NFS-014,2026-06-20,CPG-512B,coupling_spacer_length,196.0,mm,caliper measurement,CURRENT,A,Current installed spacer
+NFS-015,2026-06-20,GBX-512B,installed_lubricant_grade,SynLube PAG ISO VG 320,,gearbox fill tag,CURRENT,A,Current synthetic PAG lubricant
+NFS-016,2026-06-20,SEAL-512B,shaft_seal_arrangement,"Dual pressurized cartridge seal, Plan 54",,seal support skid and cartridge tags,CURRENT,A,Current seal system
+NFS-017,2026-06-20,CPG-512B,motor_side_hub_id,TF290-M120-L,,hub laser etching,CURRENT,A,Motor-side hub
+NFS-018,2026-06-20,CPG-512B,gearbox_side_hub_id,TF290-G95-R,,hub laser etching,CURRENT,A,Gearbox-side hub
+NFS-019,2026-06-20,GRD-512B,coupling_guard_minimum_clearance,14.8,mm,feeler gauge at lower quadrant,CURRENT,A,Closest moving member
+NFS-020,2026-06-20,BRG-MDE-512B,installed_bearing,6316-C3,,bearing carton and housing tag,CURRENT,A,Motor drive-end bearing
+NFS-021,2026-06-20,BRG-MNDE-512B,installed_bearing,6314-C3,,bearing carton and housing tag,CURRENT,A,Motor non-drive-end bearing
+NFS-022,2026-06-20,BRG-GBI-512B,installed_bearing,NJ2224/C3,,gearbox rebuild tag,CURRENT,A,Gearbox input bearing
+NFS-023,2026-06-20,BRG-GBO-512B,installed_bearing,22328-E/C3,,gearbox rebuild tag,CURRENT,A,Gearbox output bearing
+NFS-024,2026-06-20,BRG-AU-512B,installed_bearing,22220-EK/C3,,bearing housing tag,CURRENT,A,Agitator upper bearing
+NFS-025,2026-06-20,BRG-AL-512B,installed_bearing,22320-E/C3,,bearing housing tag,CURRENT,A,Agitator lower bearing
+NFS-026,2026-06-20,MTR-512B,retained_legacy_motor_plate,OrbiDrive OD-96M-4; 96 kW; 1468 rpm,,stored removed motor plate,LEGACY_CONTEXT,B,Not installed
+NFS-027,2026-06-20,GBX-512B,retained_legacy_gearbox_plate,TransAxis TA-92-22.10; 22.10:1,,stored removed gearbox plate,LEGACY_CONTEXT,B,Not installed
+NFS-028,2026-06-20,SEAL-512B,retained_legacy_seal_tag,Double lip seal with grease barrier,,archived spare tag,LEGACY_CONTEXT,C,Not installed
