@@ -1,3 +1,40 @@
+Dataset Coverage and Fictional-Content Notice
+
+The Creative Commons Zero v1.0 Universal dedication in this repository applies to the following repository-authored files:
+
+1. AG512B_asset_register.xlsx
+2. AG512B_nameplate_and_field_survey.csv
+3. AG512B_work_order_closeout.docx
+4. AG512B_laser_alignment_report.pdf
+5. AG512B_shaft_runout_and_endplay.csv
+6. AG512B_vibration_route_readings.csv
+7. AG512B_bearing_temperature_trend.xlsx
+8. AG512B_gearbox_oil_analysis.pdf
+9. AG512B_motor_current_power_speed_log.xlsx
+10. AG512B_tachometer_and_torque_calibration.xlsx
+11. AG512B_coupling_and_fastener_inspection.docx
+12. AG512B_guard_loto_and_access_checklist.docx
+13. AG512B_spare_parts_and_material_crossrefs.xlsx
+14. AG512B_control_system_alarm_export.csv
+15. AG512B_legacy_vendor_drive_datasheet.pdf
+
+All files listed above are fictional and synthetic mechanical-engineering records created solely for training, evaluation, 
+testing, research, and demonstration purposes.
+
+The equipment tags, asset identifiers, model numbers, serial numbers, instrument identifiers, calibration certificates, work 
+orders, measurements, operating data, laboratory results, inspection findings, safety records, alarms, maintenance dates, 
+personnel names, vendor references, and facility information contained in these files are invented.
+
+These files do not describe a real reactor, agitator, motor, VFD, gearbox, coupling, bearing system, shaft seal, facility, 
+maintenance event, company, vendor, employee, contractor, or other person or organization. Any resemblance to actual equipment, 
+documents, organizations, events, or individuals is coincidental.
+
+The files are original repository-authored works and are released under the Creative Commons Zero v1.0 Universal dedication 
+reproduced below.
+
+This notice identifies the repository content covered by the dedication and does not replace or modify the standard Creative 
+Commons Zero v1.0 Universal legal text that follows.
+
 Creative Commons Legal Code
 
 CC0 1.0 Universal
